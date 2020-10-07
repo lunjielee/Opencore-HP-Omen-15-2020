@@ -1,6 +1,7 @@
 # Opencore-HP-Omen-15-2020
 Opencore config files for HP Omen 15 2020 10750H
-**Battery life the best I can get for this machine is around 1:20 min**
+
+**Battery life the best I can get for this machine is around 1h and 20 min**
 
 ## Specs
 * CPU: i7-10750H (Emulated as 9750H)
