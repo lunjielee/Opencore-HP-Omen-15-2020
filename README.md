@@ -7,7 +7,7 @@ Opencore config files for HP Omen 15 2020 10750H
 Battery life now has been fixed, backup your serial number if you are using your iMessage/Facetime service
 
 ## Specs
-* CPU: i7-10750H (Emulated as 9750H)
+* CPU: i7-10750H (~~Emulated as 9750H~~)
 * GPU: Intel UHD Graphics + RTX2060
 * Ram: 8gb+8gb
 * Audio: ALC245 (layout-id 13)
