@@ -1,23 +1,17 @@
-# Opencore-HP-Omen-15-2020
-## Working with macOS 11.2.3 (20D91)
-Opencore config files for HP Omen 15 2020 10750H
-
-~~Battery life the best I can get for this machine is around 1h and 20 min~~
-
-Battery life now has been fixed, backup your serial number if you are using your iMessage/Facetime service
+# Opencore-HP-Omen-16-2020
+## Modified DSDT Entities
+* TPD0 to TPXX
+![TPD0toTPXX](https://raw.githubusercontent.com/lunjielee/Opencore-HP-Omen-15-2020/16-a0xxx/TPD0toTPXX.png)
+* TPXX _STA Method
+![TPXX _STA](https://raw.githubusercontent.com/lunjielee/Opencore-HP-Omen-15-2020/16-a0xxx/TPXX-_STA.png)
+* _STA Method in ACEL device(Battery Patch Prep)
+![ACEL-XSTA](https://raw.githubusercontent.com/lunjielee/Opencore-HP-Omen-15-2020/16-a0xxx/ACEL-XSTA.png)
 
 ## Specs
 * CPU: i7-10750H (~~Emulated as 9750H~~)
-* GPU: Intel UHD Graphics + RTX2060
+* GPU: Intel UHD Graphics + GTX 1650 Ti 
 * Ram: 8gb+8gb
-* Audio: ALC245 (layout-id 13)
+* Audio: ALC245 (layout-id 13) ?
 * Trackpad: Synaptics (syna32a4)
-* SSD: PM981a (Replaced with WD Black SN750)
+* SSD: PM981a (Replace this ssd before you proceed)
 * WiFi: Intel® Wi-Fi 6 AX201
-
-## What's working
-* Everything works except video output since all video ports are connected to nVidia 
-* Built-in Mic not working cause it uses Intel® Smart Sound Technology
-
-## CinebenchR23
-![Image of Cinebench](https://raw.githubusercontent.com/lunjielee/Opencore-HP-Omen-15-2020/master/cinebench.png)

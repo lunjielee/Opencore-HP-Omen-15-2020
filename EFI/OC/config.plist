@@ -34,7 +34,7 @@
 				<key>Comment</key>
 				<string>Fix Keyboard Backlight Key</string>
 				<key>Enabled</key>
-				<true/>
+				<false/>
 				<key>Path</key>
 				<string>SSDT-KBkeyFix.aml</string>
 			</dict>
@@ -58,7 +58,7 @@
 				<key>Comment</key>
 				<string>Battery Patch</string>
 				<key>Enabled</key>
-				<true/>
+				<false/>
 				<key>Path</key>
 				<string>SSDT-BATT.aml</string>
 			</dict>
@@ -247,7 +247,7 @@
 				<key>Count</key>
 				<integer>0</integer>
 				<key>Enabled</key>
-				<true/>
+				<false/>
 				<key>Find</key>
 				<data>U01SRAQ=</data>
 				<key>Limit</key>
@@ -273,7 +273,7 @@
 				<key>Count</key>
 				<integer>0</integer>
 				<key>Enabled</key>
-				<true/>
+				<false/>
 				<key>Find</key>
 				<data>U01XUgQ=</data>
 				<key>Limit</key>
@@ -299,7 +299,7 @@
 				<key>Count</key>
 				<integer>0</integer>
 				<key>Enabled</key>
-				<true/>
+				<false/>
 				<key>Find</key>
 				<data>VVBCSQA=</data>
 				<key>Limit</key>
@@ -325,7 +325,7 @@
 				<key>Count</key>
 				<integer>0</integer>
 				<key>Enabled</key>
-				<true/>
+				<false/>
 				<key>Find</key>
 				<data>VVBCWAA=</data>
 				<key>Limit</key>
@@ -351,7 +351,7 @@
 				<key>Count</key>
 				<integer>0</integer>
 				<key>Enabled</key>
-				<true/>
+				<false/>
 				<key>Find</key>
 				<data>VVBCUwA=</data>
 				<key>Limit</key>
@@ -377,7 +377,7 @@
 				<key>Count</key>
 				<integer>0</integer>
 				<key>Enabled</key>
-				<true/>
+				<false/>
 				<key>Find</key>
 				<data>R0JJRgE=</data>
 				<key>Limit</key>
@@ -403,7 +403,7 @@
 				<key>Count</key>
 				<integer>0</integer>
 				<key>Enabled</key>
-				<true/>
+				<false/>
 				<key>Find</key>
 				<data>R0JDTwg=</data>
 				<key>Limit</key>
@@ -509,7 +509,7 @@
 				<key>Enabled</key>
 				<true/>
 				<key>Find</key>
-				<data>GVRQRDAISEk=</data>
+				<data>VFBEMA==</data>
 				<key>Limit</key>
 				<integer>0</integer>
 				<key>Mask</key>
@@ -517,7 +517,33 @@
 				<key>OemTableId</key>
 				<data></data>
 				<key>Replace</key>
-				<data>GVRQWFgISEk=</data>
+				<data>VFBYWA==</data>
+				<key>ReplaceMask</key>
+				<data></data>
+				<key>Skip</key>
+				<integer>0</integer>
+				<key>TableLength</key>
+				<integer>0</integer>
+				<key>TableSignature</key>
+				<data></data>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Rename _STA to XSTA in ACEL device</string>
+				<key>Count</key>
+				<integer>0</integer>
+				<key>Enabled</key>
+				<true/>
+				<key>Find</key>
+				<data>ABRNBV9TVEE=</data>
+				<key>Limit</key>
+				<integer>0</integer>
+				<key>Mask</key>
+				<data></data>
+				<key>OemTableId</key>
+				<data></data>
+				<key>Replace</key>
+				<data>ABRNBVhTVEE=</data>
 				<key>ReplaceMask</key>
 				<data></data>
 				<key>Skip</key>
@@ -1178,7 +1204,7 @@
 			<key>PickerAudioAssist</key>
 			<false/>
 			<key>PickerMode</key>
-			<string>External</string>
+			<string>Builtin</string>
 			<key>PickerVariant</key>
 			<string>Auto</string>
 			<key>PollAppleHotKeys</key>
@@ -1339,7 +1365,7 @@
 				<key>SystemAudioVolume</key>
 				<data>Rg==</data>
 				<key>boot-args</key>
-				<string>msgbuf=1048576</string>
+				<string>-v msgbuf=1048576</string>
 				<key>csr-active-config</key>
 				<data>ZwgAAA==</data>
 				<key>prev-lang:kbd</key>
