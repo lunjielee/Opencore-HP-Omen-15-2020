@@ -1,0 +1,442 @@
+2021-03-14 16:56:56  ================================================
+2021-03-14 16:56:56  EFI System Diagnostic 7.5.3.0 Started
+2021-03-14 16:56:56  Load Options Blank
+2021-03-14 16:56:56  SysDiagsBiosData2011 Configuration Variable Acquired, SysDiagsBiosData2010.Version 2
+2021-03-14 16:56:56  HP Thermal Diagnostic Protocol Not Available
+2021-03-14 16:56:56  Found HP Thermal Diagnostic 2 Protocol
+2021-03-14 16:56:56  [L]> System ID: 878A
+2021-03-14 16:56:56  HP BIOS Image Interface Protocol Version 2.0
+2021-03-14 16:56:56  [L]> Found 12 Processors 12 Enabled Processors
+2021-03-14 16:56:56  [L]> MpService2 found Bsp at index 0
+2021-03-14 16:56:56  [L]> Found 1 Absolute Pointer Protocol(s)
+2021-03-14 16:56:56  [L]> 0 UART device path node found.
+2021-03-14 16:56:56  System Family: Consumer Notebook
+2021-03-14 16:56:56  Filter Serial Port Test for SystemFamily 2 
+2021-03-14 16:56:56  [L]> Locate IsaIoProtocol HandleCount = 0. (Not Found)
+2021-03-14 16:56:56  [L]> Found 1 Thunderbolt Handles. 
+2021-03-14 16:57:01  [L]> IsThunderboltAccessProtocolPresent(): SetPowerState(): Returned (Success). Successfully set DEFAULT_POWER_STATE
+2021-03-14 16:57:01  Failed loading Hp Fingerprint Verify Protocol.(Not Found)
+2021-03-14 16:57:01  [L]> Language Selected is currently (chs).
+2021-03-14 16:57:03  Initializing Drive Library.
+2021-03-14 16:57:03  TscPerSecond = 09A7983E0h 
+2021-03-14 16:57:03  [L]> DMA Remap Protection is enabled
+2021-03-14 16:57:03  Found 1 handles supporting EFI_ATA_PASS_THRU_PROTOCOL.
+2021-03-14 16:57:03  AtaPassThruInitializeAtaDiskSupport(): Using Handle 0.
+2021-03-14 16:57:03  AtaPassThruInitializeAtaDiskSupport(): GetNextPort() EFI_NOT_FOUND.
+2021-03-14 16:57:03  Found 1 handles supporting EFI_EXT_SCSI_PASS_THRU_PROTOCOL (143B7632-B81B-4CB7-ABD3-B625A5B9BFFE).
+2021-03-14 16:57:03  Found 3 handles supporting EFI_NVM_EXPRESS_PASS_THRU_PROTOCOL (52C78312-8EDC-4233-98F2-1A1AA5E388A5).
+2021-03-14 16:57:03  [W]> PciIo Class Code (BCC:01,SCC:04,PI:00) unmatched for NVMe device. (Success)
+2021-03-14 16:57:03  NVMePassThruInitializeNVMeDiskSupport(): GetNextNamespace() Not Found. (Not Found)
+2021-03-14 16:57:03  [L]> Loaded NVMe PciIo: Location(Seg:0,Bus:59,Dev:0,Func:0), BAR(0x0000000078400000).
+2021-03-14 16:57:03  [L]> NVMe Controller Version: 1.3
+2021-03-14 16:57:03  NVMe device connected at NamespaceID 0x1
+2021-03-14 16:57:03  Device Node NVMe(0x1,B4-57-B3-01-83-38-25-00).
+2021-03-14 16:57:03  Drive 0 - RTD3 Entry Latency: 8000000
+2021-03-14 16:57:03  Drive 0 - Firmware Revision: HPS0NEXF
+2021-03-14 16:57:03  Drive 0 - VidDid: 0xA808144D
+2021-03-14 16:57:03  Drive 0 - SMART Log NSID Supported.
+2021-03-14 16:57:03  Drive 0 - Short/Long DST Supported.
+2021-03-14 16:57:03  Drive 0 - The Medium is Removable
+2021-03-14 16:57:03  Drive 0 - LBA Format: Using Format 0
+2021-03-14 16:57:03  Drive 0 - Logical Sector Size: 512
+2021-03-14 16:57:03  NVMePassThruGetBlockIoProtocolDirectly(): Found 6 supporting EFI_BLOCK_IO_PROTOCOL.
+2021-03-14 16:57:03  Linked Block I/O Protocol (0x4C855050) to Drive 0
+2021-03-14 16:57:03  Drive 0, LastBlock = 0x773BD2AF IoAlign 0x4
+2021-03-14 16:57:03  NVMePassThruInitializeNVMeDiskSupport(): GetNextNamespace() Not Found. (Not Found)
+2021-03-14 16:57:03  [L]> Loaded NVMe PciIo: Location(Seg:0,Bus:60,Dev:0,Func:0), BAR(0x0000000078300000).
+2021-03-14 16:57:03  [L]> NVMe Controller Version: 1.3
+2021-03-14 16:57:03  NVMe device connected at NamespaceID 0x1
+2021-03-14 16:57:03  Device Node NVMe(0x1,66-AA-AB-44-8B-44-1B-00).
+2021-03-14 16:57:03  Drive 1 - RTD3 Entry Latency: 1000000
+2021-03-14 16:57:03  Drive 1 - Firmware Revision: 102000WD
+2021-03-14 16:57:03  Drive 1 - VidDid: 0x500215B7
+2021-03-14 16:57:03  Drive 1 - SMART Log NSID NOT Supported.
+2021-03-14 16:57:03  Drive 1 - Short/Long DST Supported.
+2021-03-14 16:57:03  Drive 1 - The Medium is Removable
+2021-03-14 16:57:03  Drive 1 - LBA Format: Using Format 0
+2021-03-14 16:57:03  Drive 1 - Logical Sector Size: 512
+2021-03-14 16:57:03  NVMePassThruGetBlockIoProtocolDirectly(): Found 6 supporting EFI_BLOCK_IO_PROTOCOL.
+2021-03-14 16:57:03  Linked Block I/O Protocol (0x4C82F050) to Drive 1
+2021-03-14 16:57:03  Drive 1, LastBlock = 0x3A38602F IoAlign 0x4
+2021-03-14 16:57:03  NVMePassThruInitializeNVMeDiskSupport(): GetNextNamespace() Not Found. (Not Found)
+2021-03-14 16:57:03  2 Total Hard Disc Drives Found
+2021-03-14 16:57:03  0 Total Optical Disc Drives Found
+2021-03-14 16:57:03  Found 2 Hard Disk Drives
+2021-03-14 16:57:03  Found 0 Optical Disk Drives
+2021-03-14 16:57:03  No handle found supporting EFI_DCPMM_CONFIG_PROTOCOL_GUID (CF2F5F1F-94B6-4C15-9CAE-AFB3BD9F2BA5).
+2021-03-14 16:57:03  Failed to initialize NVDIMM modules.
+2021-03-14 16:57:03  SSD Wear ID is 0x00, Flags is 0x0000, Current is 0x64, Worse is 0x00.
+2021-03-14 16:57:03  SSD Wear Data: 00 00 00 00 00 00. 
+2021-03-14 16:57:03  SSD Wear ID is 0x00, Flags is 0x0000, Current is 0x64, Worse is 0x00.
+2021-03-14 16:57:03  SSD Wear Data: 00 00 00 00 00 00. 
+2021-03-14 16:57:03  [L]> System ID: 878A
+2021-03-14 16:57:03  System Model: = OMEN Laptop 15-ek0xxx
+2021-03-14 16:57:03  System SKU: = 12C19UA#ABL
+2021-03-14 16:57:03  System ID: 878A
+2021-03-14 16:57:03  [L]> SMBIOS Type: 3, ID: 0 not found. 
+2021-03-14 16:57:03  "BATT_CARE" found in SMBIOS Type 11
+2021-03-14 16:57:03  Type 11 OS Image: BUILDID#20WW1SAT601#SABL#DABL
+2021-03-14 16:57:03  BOD: 05/24/2020
+2021-03-14 16:57:03  HDD 0 Type : NVMe
+2021-03-14 16:57:03  HDD 0 Model :   SAMSUNG MZVLB1T0HBLR-000H1
+2021-03-14 16:57:03  HDD 0 Firmware: HPS0NEXF
+2021-03-14 16:57:03  HDD 0 Serial:   S4GRNF0N306196
+2021-03-14 16:57:03  HDD 1 Type : NVMe
+2021-03-14 16:57:03  HDD 1 Model :   WDS500G3X0C-00SJG0
+2021-03-14 16:57:03  HDD 1 Firmware: 102000WD
+2021-03-14 16:57:03  HDD 1 Serial:   191680801175
+2021-03-14 16:57:03  DIMM 0 Serial Number: 37B8F618
+2021-03-14 16:57:03  DIMM 0 Part Number  : M471A1K43DB1-CWE    
+2021-03-14 16:57:03  DIMM 1 Serial Number: 37B8F869
+2021-03-14 16:57:03  DIMM 1 Part Number  : M471A1K43DB1-CWE    
+2021-03-14 16:57:03  BIOS Revision: F.07
+2021-03-14 16:57:03  [L]> Platform Vendor ID : 0x8086
+2021-03-14 16:57:03  [L]> Platform Device ID : 0x9B54
+2021-03-14 16:57:03  [L]> Found EFI_HP_DIMM_ID_PROTOCOL
+2021-03-14 16:57:03  [L]> EFI_HP_BATTERY_CONTROL_PROTOCOL_2010 is present.
+2021-03-14 16:57:03  Type 11 1 tables
+2021-03-14 16:57:03  Type (000000000000000Bh), Len (0000000000000005h), Handle (0000000000000011h), String count (000000000000000Dh)
+2021-03-14 16:57:03  HPBATDET: Environment Variable not found.
+2021-03-14 16:57:03  BATDET: Date 6//8//2020 
+2021-03-14 16:57:03  BATDET: 0
+2021-03-14 16:57:03  [L]> BATDET: HP
+2021-03-14 16:57:03  SysDiagsGetBatterySafetyModeStatus(): Failed to get BatterySafeyMode/BatterySafeyModeStatus.
+2021-03-14 16:57:04  BIOS Config Table Configure Legacy Support and Secure Boot section was not found. 
+2021-03-14 16:57:04  BIOS Config Table Legacy Support section was not found. 
+2021-03-14 16:57:04  Secure Boot:
+2021-03-14 16:57:04  	*Disable
+2021-03-14 16:57:04  	Enable
+2021-03-14 16:57:04  GetBIOSBootModeFromBIOSConfig(): Secure Boot is Not Enabled. 
+2021-03-14 16:57:04  BIOS Config Table Battery Care Function section was not found. 
+2021-03-14 16:57:04  GetBatteryAdaptiveExtenderFromBIOSConfig(): Adaptive Battery Extender is Enabled. 
+2021-03-14 16:57:04  Adaptive Battery Extender from BCU:
+2021-03-14 16:57:04  Disable
+2021-03-14 16:57:04  *Enable
+2021-03-14 16:57:04  GetBatteryAdaptiveExtenderFromBIOSConfig(): Adaptive Battery Extender Status is Activated. 
+2021-03-14 16:57:04  Adaptive Battery Extender Status from BCU:
+2021-03-14 16:57:04  Not Activated
+2021-03-14 16:57:04  *Activated
+2021-03-14 16:57:04  BIOS Config Table DMAr Protection section was not found. 
+2021-03-14 16:57:04  GetBatteryLowTempFromBIOSConfig: Battery1 LTemp is 0. 
+2021-03-14 16:57:04  Starting Graphical System Diagnostic Menu
+2021-03-14 16:57:13  No USB optical drive detected.
+2021-03-14 16:57:18  Thunderbolt Test Selected
+2021-03-14 16:57:18  Estimated Total Time Required = 60s
+2021-03-14 16:57:18  Thunderbolt Test Started
+2021-03-14 16:57:19  [L]> SetPowerState(): Returned (Device Error) when trying to FORCE_POWER_STATE
+2021-03-14 16:57:19  [L]> Security Level: Auto Connect
+2021-03-14 16:57:24  [L]> SetPowerState(): Returned (Success). Successfully FORCE_POWER_STATE OFF
+2021-03-14 16:57:24  Thunderbolt Test Completed - Result 3
+2021-03-14 16:57:24  Error Code=0x443
+2021-03-14 16:57:24  Serial Number       : 5CD0293BGC
+2021-03-14 16:57:24  BOD : 05/24/2020
+2021-03-14 16:57:24  WarrantyIDString size = 60
+2021-03-14 16:57:24  Warranty ID = UBTQ9W-A4HAJ9-MFPU3G-8GVV03
+2021-03-14 16:57:27  Thunderbolt Test Completed
+2021-03-14 16:57:41  Exiting System Diagnostics
+2021-03-15 08:11:15  ================================================
+2021-03-15 08:11:15  EFI System Diagnostic 7.5.3.0 Started
+2021-03-15 08:11:15  Load Options Blank
+2021-03-15 08:11:15  SysDiagsBiosData2011 Configuration Variable Acquired, SysDiagsBiosData2010.Version 2
+2021-03-15 08:11:15  HP Thermal Diagnostic Protocol Not Available
+2021-03-15 08:11:15  Found HP Thermal Diagnostic 2 Protocol
+2021-03-15 08:11:15  [L]> System ID: 878A
+2021-03-15 08:11:15  HP BIOS Image Interface Protocol Version 2.0
+2021-03-15 08:11:15  [L]> Found 12 Processors 12 Enabled Processors
+2021-03-15 08:11:15  [L]> MpService2 found Bsp at index 0
+2021-03-15 08:11:15  [L]> Found 1 Absolute Pointer Protocol(s)
+2021-03-15 08:11:15  [L]> 0 UART device path node found.
+2021-03-15 08:11:15  System Family: Consumer Notebook
+2021-03-15 08:11:15  Filter Serial Port Test for SystemFamily 2 
+2021-03-15 08:11:15  [L]> Locate IsaIoProtocol HandleCount = 0. (Not Found)
+2021-03-15 08:11:15  [L]> Found 1 Thunderbolt Handles. 
+2021-03-15 08:11:20  [L]> IsThunderboltAccessProtocolPresent(): SetPowerState(): Returned (Success). Successfully set DEFAULT_POWER_STATE
+2021-03-15 08:11:20  Failed loading Hp Fingerprint Verify Protocol.(Not Found)
+2021-03-15 08:11:20  [L]> Language Selected is currently (chs).
+2021-03-15 08:11:22  Initializing Drive Library.
+2021-03-15 08:11:22  TscPerSecond = 09A7E845Eh 
+2021-03-15 08:11:22  [L]> DMA Remap Protection is enabled
+2021-03-15 08:11:22  Found 1 handles supporting EFI_ATA_PASS_THRU_PROTOCOL.
+2021-03-15 08:11:22  AtaPassThruInitializeAtaDiskSupport(): Using Handle 0.
+2021-03-15 08:11:22  AtaPassThruInitializeAtaDiskSupport(): GetNextPort() EFI_NOT_FOUND.
+2021-03-15 08:11:22  Found 1 handles supporting EFI_EXT_SCSI_PASS_THRU_PROTOCOL (143B7632-B81B-4CB7-ABD3-B625A5B9BFFE).
+2021-03-15 08:11:22  Found 3 handles supporting EFI_NVM_EXPRESS_PASS_THRU_PROTOCOL (52C78312-8EDC-4233-98F2-1A1AA5E388A5).
+2021-03-15 08:11:22  [W]> PciIo Class Code (BCC:01,SCC:04,PI:00) unmatched for NVMe device. (Success)
+2021-03-15 08:11:22  NVMePassThruInitializeNVMeDiskSupport(): GetNextNamespace() Not Found. (Not Found)
+2021-03-15 08:11:22  [L]> Loaded NVMe PciIo: Location(Seg:0,Bus:59,Dev:0,Func:0), BAR(0x0000000078400000).
+2021-03-15 08:11:22  [L]> NVMe Controller Version: 1.3
+2021-03-15 08:11:22  NVMe device connected at NamespaceID 0x1
+2021-03-15 08:11:22  Device Node NVMe(0x1,B4-57-B3-01-83-38-25-00).
+2021-03-15 08:11:22  Drive 0 - RTD3 Entry Latency: 8000000
+2021-03-15 08:11:22  Drive 0 - Firmware Revision: HPS0NEXF
+2021-03-15 08:11:22  Drive 0 - VidDid: 0xA808144D
+2021-03-15 08:11:22  Drive 0 - SMART Log NSID Supported.
+2021-03-15 08:11:22  Drive 0 - Short/Long DST Supported.
+2021-03-15 08:11:22  Drive 0 - The Medium is Removable
+2021-03-15 08:11:22  Drive 0 - LBA Format: Using Format 0
+2021-03-15 08:11:22  Drive 0 - Logical Sector Size: 512
+2021-03-15 08:11:22  NVMePassThruGetBlockIoProtocolDirectly(): Found 6 supporting EFI_BLOCK_IO_PROTOCOL.
+2021-03-15 08:11:22  Linked Block I/O Protocol (0x4C85E050) to Drive 0
+2021-03-15 08:11:22  Drive 0, LastBlock = 0x773BD2AF IoAlign 0x4
+2021-03-15 08:11:22  NVMePassThruInitializeNVMeDiskSupport(): GetNextNamespace() Not Found. (Not Found)
+2021-03-15 08:11:22  [L]> Loaded NVMe PciIo: Location(Seg:0,Bus:60,Dev:0,Func:0), BAR(0x0000000078300000).
+2021-03-15 08:11:22  [L]> NVMe Controller Version: 1.3
+2021-03-15 08:11:22  NVMe device connected at NamespaceID 0x1
+2021-03-15 08:11:22  Device Node NVMe(0x1,66-AA-AB-44-8B-44-1B-00).
+2021-03-15 08:11:22  Drive 1 - RTD3 Entry Latency: 1000000
+2021-03-15 08:11:22  Drive 1 - Firmware Revision: 102000WD
+2021-03-15 08:11:22  Drive 1 - VidDid: 0x500215B7
+2021-03-15 08:11:22  Drive 1 - SMART Log NSID NOT Supported.
+2021-03-15 08:11:22  Drive 1 - Short/Long DST Supported.
+2021-03-15 08:11:22  Drive 1 - The Medium is Removable
+2021-03-15 08:11:22  Drive 1 - LBA Format: Using Format 0
+2021-03-15 08:11:22  Drive 1 - Logical Sector Size: 512
+2021-03-15 08:11:22  NVMePassThruGetBlockIoProtocolDirectly(): Found 6 supporting EFI_BLOCK_IO_PROTOCOL.
+2021-03-15 08:11:22  Linked Block I/O Protocol (0x4C837050) to Drive 1
+2021-03-15 08:11:22  Drive 1, LastBlock = 0x3A38602F IoAlign 0x4
+2021-03-15 08:11:22  NVMePassThruInitializeNVMeDiskSupport(): GetNextNamespace() Not Found. (Not Found)
+2021-03-15 08:11:22  2 Total Hard Disc Drives Found
+2021-03-15 08:11:22  0 Total Optical Disc Drives Found
+2021-03-15 08:11:22  Found 2 Hard Disk Drives
+2021-03-15 08:11:22  Found 0 Optical Disk Drives
+2021-03-15 08:11:22  No handle found supporting EFI_DCPMM_CONFIG_PROTOCOL_GUID (CF2F5F1F-94B6-4C15-9CAE-AFB3BD9F2BA5).
+2021-03-15 08:11:22  Failed to initialize NVDIMM modules.
+2021-03-15 08:11:22  SSD Wear ID is 0x00, Flags is 0x0000, Current is 0x64, Worse is 0x00.
+2021-03-15 08:11:22  SSD Wear Data: 00 00 00 00 00 00. 
+2021-03-15 08:11:22  SSD Wear ID is 0x00, Flags is 0x0000, Current is 0x64, Worse is 0x00.
+2021-03-15 08:11:22  SSD Wear Data: 00 00 00 00 00 00. 
+2021-03-15 08:11:22  [L]> System ID: 878A
+2021-03-15 08:11:22  System Model: = OMEN Laptop 15-ek0xxx
+2021-03-15 08:11:22  System SKU: = 12C19UA#ABL
+2021-03-15 08:11:22  System ID: 878A
+2021-03-15 08:11:22  [L]> SMBIOS Type: 3, ID: 0 not found. 
+2021-03-15 08:11:22  "BATT_CARE" found in SMBIOS Type 11
+2021-03-15 08:11:22  Type 11 OS Image: BUILDID#20WW1SAT601#SABL#DABL
+2021-03-15 08:11:22  BOD: 05/24/2020
+2021-03-15 08:11:22  HDD 0 Type : NVMe
+2021-03-15 08:11:22  HDD 0 Model :   SAMSUNG MZVLB1T0HBLR-000H1
+2021-03-15 08:11:22  HDD 0 Firmware: HPS0NEXF
+2021-03-15 08:11:22  HDD 0 Serial:   S4GRNF0N306196
+2021-03-15 08:11:22  HDD 1 Type : NVMe
+2021-03-15 08:11:22  HDD 1 Model :   WDS500G3X0C-00SJG0
+2021-03-15 08:11:22  HDD 1 Firmware: 102000WD
+2021-03-15 08:11:22  HDD 1 Serial:   191680801175
+2021-03-15 08:11:22  DIMM 0 Serial Number: 37B8F618
+2021-03-15 08:11:22  DIMM 0 Part Number  : M471A1K43DB1-CWE    
+2021-03-15 08:11:22  DIMM 1 Serial Number: 37B8F869
+2021-03-15 08:11:22  DIMM 1 Part Number  : M471A1K43DB1-CWE    
+2021-03-15 08:11:22  BIOS Revision: F.07
+2021-03-15 08:11:22  [L]> Platform Vendor ID : 0x8086
+2021-03-15 08:11:22  [L]> Platform Device ID : 0x9B54
+2021-03-15 08:11:22  [L]> Found EFI_HP_DIMM_ID_PROTOCOL
+2021-03-15 08:11:22  [L]> EFI_HP_BATTERY_CONTROL_PROTOCOL_2010 is present.
+2021-03-15 08:11:22  Type 11 1 tables
+2021-03-15 08:11:22  Type (000000000000000Bh), Len (0000000000000005h), Handle (0000000000000011h), String count (000000000000000Dh)
+2021-03-15 08:11:22  HPBATDET: Environment Variable not found.
+2021-03-15 08:11:23  BATDET: Date 6//8//2020 
+2021-03-15 08:11:23  BATDET: 0
+2021-03-15 08:11:23  [L]> BATDET: HP
+2021-03-15 08:11:23  SysDiagsGetBatterySafetyModeStatus(): Failed to get BatterySafeyMode/BatterySafeyModeStatus.
+2021-03-15 08:11:23  BIOS Config Table Configure Legacy Support and Secure Boot section was not found. 
+2021-03-15 08:11:23  BIOS Config Table Legacy Support section was not found. 
+2021-03-15 08:11:23  Secure Boot:
+2021-03-15 08:11:23  	*Disable
+2021-03-15 08:11:23  	Enable
+2021-03-15 08:11:23  GetBIOSBootModeFromBIOSConfig(): Secure Boot is Not Enabled. 
+2021-03-15 08:11:23  BIOS Config Table Battery Care Function section was not found. 
+2021-03-15 08:11:23  GetBatteryAdaptiveExtenderFromBIOSConfig(): Adaptive Battery Extender is Enabled. 
+2021-03-15 08:11:23  Adaptive Battery Extender from BCU:
+2021-03-15 08:11:23  Disable
+2021-03-15 08:11:23  *Enable
+2021-03-15 08:11:23  GetBatteryAdaptiveExtenderFromBIOSConfig(): Adaptive Battery Extender Status is Not Activated. 
+2021-03-15 08:11:23  Adaptive Battery Extender Status from BCU:
+2021-03-15 08:11:23  *Not Activated
+2021-03-15 08:11:23  Activated
+2021-03-15 08:11:23  BIOS Config Table DMAr Protection section was not found. 
+2021-03-15 08:11:23  GetBatteryLowTempFromBIOSConfig: Battery1 LTemp is 0. 
+2021-03-15 08:11:23  Starting Graphical System Diagnostic Menu
+2021-03-15 08:11:24  No USB optical drive detected.
+2021-03-15 08:11:25  [L]> SmbiosGetBiosVendor: AMI
+2021-03-15 08:12:01  No USB optical drive detected.
+2021-03-15 08:12:04  Thunderbolt Test Selected
+2021-03-15 08:12:04  Estimated Total Time Required = 60s
+2021-03-15 08:12:04  Thunderbolt Test Started
+2021-03-15 08:12:05  [L]> SetPowerState(): Returned (Device Error) when trying to FORCE_POWER_STATE
+2021-03-15 08:12:05  [L]> Security Level: Auto Connect
+2021-03-15 08:12:10  [L]> SetPowerState(): Returned (Success). Successfully FORCE_POWER_STATE OFF
+2021-03-15 08:12:10  Thunderbolt Test Completed - Result 3
+2021-03-15 08:12:10  Error Code=0x443
+2021-03-15 08:12:10  Serial Number       : 5CD0293BGC
+2021-03-15 08:12:10  BOD : 05/24/2020
+2021-03-15 08:12:10  WarrantyIDString size = 60
+2021-03-15 08:12:10  Warranty ID = UBTQ9W-A4HAJA-MFPU3G-8GUD03
+2021-03-15 08:14:04  Thunderbolt Test Completed
+2021-03-15 08:14:05  No USB optical drive detected.
+2021-03-15 08:14:48  Thunderbolt Test Selected
+2021-03-15 08:14:48  Estimated Total Time Required = 60s
+2021-03-15 08:14:48  Thunderbolt Test Started
+2021-03-15 08:14:49  [L]> SetPowerState(): Returned (Device Error) when trying to FORCE_POWER_STATE
+2021-03-15 08:14:49  [L]> Security Level: Auto Connect
+2021-03-15 08:14:54  [L]> SetPowerState(): Returned (Success). Successfully FORCE_POWER_STATE OFF
+2021-03-15 08:14:54  Thunderbolt Test Completed - Result 3
+2021-03-15 08:14:54  Error Code=0x443
+2021-03-15 08:14:54  Serial Number       : 5CD0293BGC
+2021-03-15 08:14:54  BOD : 05/24/2020
+2021-03-15 08:14:54  WarrantyIDString size = 60
+2021-03-15 08:14:54  Warranty ID = UBTQ9W-A4HAJA-MFPU3G-8GUD03
+2021-03-15 08:14:54  Thunderbolt Test Completed
+2021-03-15 08:14:54  No USB optical drive detected.
+2021-03-15 08:14:54  CPU Test Selected
+2021-03-15 08:14:54  Estimated Total Time Required = 10s
+2021-03-15 08:14:54  CPU Test Started
+2021-03-15 08:14:55  Start Numeric Coprocessor Test.
+2021-03-15 08:14:57  CPU Test Completed - Result 2
+2021-03-15 08:14:57  CPU Test Completed
+2021-03-15 08:14:58  No USB optical drive detected.
+2021-03-15 08:15:03  Thunderbolt Test Selected
+2021-03-15 08:15:04  Estimated Total Time Required = 60s
+2021-03-15 08:15:04  Thunderbolt Test Started
+2021-03-15 08:15:05  [L]> SetPowerState(): Returned (Device Error) when trying to FORCE_POWER_STATE
+2021-03-15 08:15:05  [L]> Security Level: Auto Connect
+2021-03-15 08:15:10  [L]> SetPowerState(): Returned (Success). Successfully FORCE_POWER_STATE OFF
+2021-03-15 08:15:10  Thunderbolt Test Completed - Result 3
+2021-03-15 08:15:10  Error Code=0x443
+2021-03-15 08:15:10  Serial Number       : 5CD0293BGC
+2021-03-15 08:15:10  BOD : 05/24/2020
+2021-03-15 08:15:10  WarrantyIDString size = 60
+2021-03-15 08:15:10  Warranty ID = UBTQ9W-A4HAJA-MFPU3G-8GUD03
+2021-03-15 08:15:20  Thunderbolt Test Completed
+2021-03-15 08:15:23  No USB optical drive detected.
+2021-03-15 08:15:24  [L]> SmbiosGetBiosVendor: AMI
+2021-03-16 09:01:55  ================================================
+2021-03-16 09:01:55  EFI System Diagnostic 7.5.3.0 Started
+2021-03-16 09:01:55  Load Options Blank
+2021-03-16 09:01:55  SysDiagsBiosData2011 Configuration Variable Acquired, SysDiagsBiosData2010.Version 2
+2021-03-16 09:01:55  HP Thermal Diagnostic Protocol Not Available
+2021-03-16 09:01:55  Found HP Thermal Diagnostic 2 Protocol
+2021-03-16 09:01:55  [L]> System ID: 878A
+2021-03-16 09:01:55  HP BIOS Image Interface Protocol Version 2.0
+2021-03-16 09:01:55  [L]> Found 12 Processors 12 Enabled Processors
+2021-03-16 09:01:55  [L]> MpService2 found Bsp at index 0
+2021-03-16 09:01:55  [L]> Found 1 Absolute Pointer Protocol(s)
+2021-03-16 09:01:55  [L]> 0 UART device path node found.
+2021-03-16 09:01:55  System Family: Consumer Notebook
+2021-03-16 09:01:55  Filter Serial Port Test for SystemFamily 2 
+2021-03-16 09:01:55  [L]> Locate IsaIoProtocol HandleCount = 0. (Not Found)
+2021-03-16 09:01:55  [L]> Found 1 Thunderbolt Handles. 
+2021-03-16 09:02:00  [L]> IsThunderboltAccessProtocolPresent(): SetPowerState(): Returned (Success). Successfully set DEFAULT_POWER_STATE
+2021-03-16 09:02:00  Failed loading Hp Fingerprint Verify Protocol.(Not Found)
+2021-03-16 09:02:00  [L]> Language Selected is currently (chs).
+2021-03-16 09:02:02  Initializing Drive Library.
+2021-03-16 09:02:02  TscPerSecond = 09A821D84h 
+2021-03-16 09:02:02  [L]> DMA Remap Protection is enabled
+2021-03-16 09:02:02  Found 1 handles supporting EFI_ATA_PASS_THRU_PROTOCOL.
+2021-03-16 09:02:02  AtaPassThruInitializeAtaDiskSupport(): Using Handle 0.
+2021-03-16 09:02:02  AtaPassThruInitializeAtaDiskSupport(): GetNextPort() EFI_NOT_FOUND.
+2021-03-16 09:02:02  Found 1 handles supporting EFI_EXT_SCSI_PASS_THRU_PROTOCOL (143B7632-B81B-4CB7-ABD3-B625A5B9BFFE).
+2021-03-16 09:02:02  Found 3 handles supporting EFI_NVM_EXPRESS_PASS_THRU_PROTOCOL (52C78312-8EDC-4233-98F2-1A1AA5E388A5).
+2021-03-16 09:02:02  [W]> PciIo Class Code (BCC:01,SCC:04,PI:00) unmatched for NVMe device. (Success)
+2021-03-16 09:02:02  NVMePassThruInitializeNVMeDiskSupport(): GetNextNamespace() Not Found. (Not Found)
+2021-03-16 09:02:02  [L]> Loaded NVMe PciIo: Location(Seg:0,Bus:59,Dev:0,Func:0), BAR(0x0000000078400000).
+2021-03-16 09:02:02  [L]> NVMe Controller Version: 1.3
+2021-03-16 09:02:02  NVMe device connected at NamespaceID 0x1
+2021-03-16 09:02:02  Device Node NVMe(0x1,B4-57-B3-01-83-38-25-00).
+2021-03-16 09:02:02  Drive 0 - RTD3 Entry Latency: 8000000
+2021-03-16 09:02:02  Drive 0 - Firmware Revision: HPS0NEXF
+2021-03-16 09:02:02  Drive 0 - VidDid: 0xA808144D
+2021-03-16 09:02:02  Drive 0 - SMART Log NSID Supported.
+2021-03-16 09:02:02  Drive 0 - Short/Long DST Supported.
+2021-03-16 09:02:02  Drive 0 - The Medium is Removable
+2021-03-16 09:02:02  Drive 0 - LBA Format: Using Format 0
+2021-03-16 09:02:02  Drive 0 - Logical Sector Size: 512
+2021-03-16 09:02:02  NVMePassThruGetBlockIoProtocolDirectly(): Found 6 supporting EFI_BLOCK_IO_PROTOCOL.
+2021-03-16 09:02:02  Linked Block I/O Protocol (0x4C84D050) to Drive 0
+2021-03-16 09:02:02  Drive 0, LastBlock = 0x773BD2AF IoAlign 0x4
+2021-03-16 09:02:02  NVMePassThruInitializeNVMeDiskSupport(): GetNextNamespace() Not Found. (Not Found)
+2021-03-16 09:02:02  [L]> Loaded NVMe PciIo: Location(Seg:0,Bus:60,Dev:0,Func:0), BAR(0x0000000078300000).
+2021-03-16 09:02:02  [L]> NVMe Controller Version: 1.3
+2021-03-16 09:02:02  NVMe device connected at NamespaceID 0x1
+2021-03-16 09:02:02  Device Node NVMe(0x1,66-AA-AB-44-8B-44-1B-00).
+2021-03-16 09:02:02  Drive 1 - RTD3 Entry Latency: 1000000
+2021-03-16 09:02:02  Drive 1 - Firmware Revision: 102000WD
+2021-03-16 09:02:02  Drive 1 - VidDid: 0x500215B7
+2021-03-16 09:02:02  Drive 1 - SMART Log NSID NOT Supported.
+2021-03-16 09:02:02  Drive 1 - Short/Long DST Supported.
+2021-03-16 09:02:02  Drive 1 - The Medium is Removable
+2021-03-16 09:02:02  Drive 1 - LBA Format: Using Format 0
+2021-03-16 09:02:02  Drive 1 - Logical Sector Size: 512
+2021-03-16 09:02:02  NVMePassThruGetBlockIoProtocolDirectly(): Found 6 supporting EFI_BLOCK_IO_PROTOCOL.
+2021-03-16 09:02:02  Linked Block I/O Protocol (0x4C827050) to Drive 1
+2021-03-16 09:02:02  Drive 1, LastBlock = 0x3A38602F IoAlign 0x4
+2021-03-16 09:02:02  NVMePassThruInitializeNVMeDiskSupport(): GetNextNamespace() Not Found. (Not Found)
+2021-03-16 09:02:02  2 Total Hard Disc Drives Found
+2021-03-16 09:02:02  0 Total Optical Disc Drives Found
+2021-03-16 09:02:02  Found 2 Hard Disk Drives
+2021-03-16 09:02:02  Found 0 Optical Disk Drives
+2021-03-16 09:02:02  No handle found supporting EFI_DCPMM_CONFIG_PROTOCOL_GUID (CF2F5F1F-94B6-4C15-9CAE-AFB3BD9F2BA5).
+2021-03-16 09:02:02  Failed to initialize NVDIMM modules.
+2021-03-16 09:02:02  SSD Wear ID is 0x00, Flags is 0x0000, Current is 0x64, Worse is 0x00.
+2021-03-16 09:02:02  SSD Wear Data: 00 00 00 00 00 00. 
+2021-03-16 09:02:02  SSD Wear ID is 0x00, Flags is 0x0000, Current is 0x64, Worse is 0x00.
+2021-03-16 09:02:02  SSD Wear Data: 00 00 00 00 00 00. 
+2021-03-16 09:02:02  [L]> System ID: 878A
+2021-03-16 09:02:02  System Model: = OMEN Laptop 15-ek0xxx
+2021-03-16 09:02:02  System SKU: = 12C19UA#ABL
+2021-03-16 09:02:02  System ID: 878A
+2021-03-16 09:02:02  [L]> SMBIOS Type: 3, ID: 0 not found. 
+2021-03-16 09:02:02  "BATT_CARE" found in SMBIOS Type 11
+2021-03-16 09:02:02  Type 11 OS Image: BUILDID#20WW1SAT601#SABL#DABL
+2021-03-16 09:02:02  BOD: 05/24/2020
+2021-03-16 09:02:02  HDD 0 Type : NVMe
+2021-03-16 09:02:02  HDD 0 Model :   SAMSUNG MZVLB1T0HBLR-000H1
+2021-03-16 09:02:02  HDD 0 Firmware: HPS0NEXF
+2021-03-16 09:02:02  HDD 0 Serial:   S4GRNF0N306196
+2021-03-16 09:02:02  HDD 1 Type : NVMe
+2021-03-16 09:02:02  HDD 1 Model :   WDS500G3X0C-00SJG0
+2021-03-16 09:02:02  HDD 1 Firmware: 102000WD
+2021-03-16 09:02:02  HDD 1 Serial:   191680801175
+2021-03-16 09:02:02  DIMM 0 Serial Number: 37B8F869
+2021-03-16 09:02:02  DIMM 0 Part Number  : M471A1K43DB1-CWE    
+2021-03-16 09:02:02  DIMM 1 Serial Number: 37B8F618
+2021-03-16 09:02:02  DIMM 1 Part Number  : M471A1K43DB1-CWE    
+2021-03-16 09:02:02  BIOS Revision: F.07
+2021-03-16 09:02:02  [L]> Platform Vendor ID : 0x8086
+2021-03-16 09:02:02  [L]> Platform Device ID : 0x9B54
+2021-03-16 09:02:02  [L]> Found EFI_HP_DIMM_ID_PROTOCOL
+2021-03-16 09:02:02  [L]> EFI_HP_BATTERY_CONTROL_PROTOCOL_2010 is present.
+2021-03-16 09:02:02  Type 11 1 tables
+2021-03-16 09:02:03  Type (000000000000000Bh), Len (0000000000000005h), Handle (0000000000000011h), String count (000000000000000Dh)
+2021-03-16 09:02:03  HPBATDET: Environment Variable not found.
+2021-03-16 09:02:03  BATDET: Date 6//8//2020 
+2021-03-16 09:02:03  BATDET: 0
+2021-03-16 09:02:03  [L]> BATDET: HP
+2021-03-16 09:02:03  SysDiagsGetBatterySafetyModeStatus(): Failed to get BatterySafeyMode/BatterySafeyModeStatus.
+2021-03-16 09:02:03  BIOS Config Table Configure Legacy Support and Secure Boot section was not found. 
+2021-03-16 09:02:03  BIOS Config Table Legacy Support section was not found. 
+2021-03-16 09:02:03  Secure Boot:
+2021-03-16 09:02:03  	*Disable
+2021-03-16 09:02:03  	Enable
+2021-03-16 09:02:03  GetBIOSBootModeFromBIOSConfig(): Secure Boot is Not Enabled. 
+2021-03-16 09:02:03  BIOS Config Table Battery Care Function section was not found. 
+2021-03-16 09:02:03  GetBatteryAdaptiveExtenderFromBIOSConfig(): Adaptive Battery Extender is Enabled. 
+2021-03-16 09:02:03  Adaptive Battery Extender from BCU:
+2021-03-16 09:02:03  Disable
+2021-03-16 09:02:03  *Enable
+2021-03-16 09:02:03  GetBatteryAdaptiveExtenderFromBIOSConfig(): Adaptive Battery Extender Status is Activated. 
+2021-03-16 09:02:03  Adaptive Battery Extender Status from BCU:
+2021-03-16 09:02:03  Not Activated
+2021-03-16 09:02:03  *Activated
+2021-03-16 09:02:03  BIOS Config Table DMAr Protection section was not found. 
+2021-03-16 09:02:03  GetBatteryLowTempFromBIOSConfig: Battery1 LTemp is 0. 
+2021-03-16 09:02:03  Starting Graphical System Diagnostic Menu
+2021-03-16 09:02:05  No USB optical drive detected.
+2021-03-16 09:02:08  Thunderbolt Test Selected
+2021-03-16 09:02:08  Estimated Total Time Required = 60s
+2021-03-16 09:02:08  Thunderbolt Test Started
+2021-03-16 09:02:09  [L]> SetPowerState(): Returned (Success). Successfully FORCE_POWER_STATE ON
+2021-03-16 09:02:09  [L]> Security Level: Auto Connect
+2021-03-16 09:02:14  [L]> SetPowerState(): Returned (Success). Successfully FORCE_POWER_STATE OFF
+2021-03-16 09:02:14  Thunderbolt Test Completed - Result 1
+2021-03-16 09:02:14  SysDiagCalculatePassID(): Test PassID 20807-06510-52954.
+2021-03-16 09:02:21  Thunderbolt Test Completed
+2021-03-16 09:02:26  Exiting System Diagnostics

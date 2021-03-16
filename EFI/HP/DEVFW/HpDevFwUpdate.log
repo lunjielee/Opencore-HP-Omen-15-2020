@@ -1,0 +1,66 @@
+2020/08/10 19:56:49 HP Device Firmware Update 1.1.0.0 Started
+2020/08/10 19:56:49 Device Firmware Update Mode = UPGRADE
+2020/08/10 19:56:49 Current Directory = \EFI\HP\DEVFW\
+2020/08/10 19:56:49 Total 1 HP Device Firmware Interface Protocol found
+2020/08/10 19:57:00 Device Firmware 0 Query Image Success
+2020/08/10 19:57:00 FileName : G3EA_TBT
+2020/08/10 19:57:00 Description : TBT : TitanRidge 2C
+2020/08/10 19:57:00 BlockSize : 0x800
+2020/08/10 19:57:00 TotalNumberOfBlocks : 0xD2
+2020/08/10 19:57:00 ResetRequired : 0
+2020/08/10 19:57:05 HP Device Firmware Update 1.1.0.0 Started
+2020/08/10 19:57:05 Device Firmware Update Mode = UPGRADE
+2020/08/10 19:57:05 Current Directory = \EFI\HP\DEVFW\
+2020/08/10 19:57:05 Total 1 HP Device Firmware Interface Protocol found
+2020/08/10 19:57:06 Device Firmware 0 Query Image Success
+2020/08/10 19:57:06 FileName : G3EA_TBT
+2020/08/10 19:57:06 Description : TBT : TitanRidge 2C
+2020/08/10 19:57:06 BlockSize : 0x800
+2020/08/10 19:57:06 TotalNumberOfBlocks : 0xD2
+2020/08/10 19:57:06 ResetRequired : 0
+2020/08/10 19:57:06 Device Firmware 0 Update Cancelled
+2020/08/10 19:57:06 Device Firmware 0 Set Flash Completion Status = 12
+2020/08/19 03:31:02 HP Device Firmware Update 1.1.0.0 Started
+2020/08/19 03:31:02 Device Firmware Update Mode = UPGRADE
+2020/08/19 03:31:02 Current Directory = \EFI\HP\DEVFW\
+2020/08/19 03:31:02 Total 1 HP Device Firmware Interface Protocol found
+2020/08/19 03:31:12 Device Firmware 0 Query Image Success
+2020/08/19 03:31:12 FileName : G3EA_TBT
+2020/08/19 03:31:12 Description : TBT : TitanRidge 2C
+2020/08/19 03:31:12 BlockSize : 0x800
+2020/08/19 03:31:12 TotalNumberOfBlocks : 0xD2
+2020/08/19 03:31:12 ResetRequired : 0
+2020/08/19 03:31:18 HP Device Firmware Update 1.1.0.0 Started
+2020/08/19 03:31:18 Device Firmware Update Mode = UPGRADE
+2020/08/19 03:31:18 Current Directory = \EFI\HP\DEVFW\
+2020/08/19 03:31:18 Total 1 HP Device Firmware Interface Protocol found
+2020/08/19 03:31:18 Device Firmware 0 Query Image Success
+2020/08/19 03:31:18 FileName : G3EA_TBT
+2020/08/19 03:31:18 Description : TBT : TitanRidge 2C
+2020/08/19 03:31:18 BlockSize : 0x800
+2020/08/19 03:31:18 TotalNumberOfBlocks : 0xD2
+2020/08/19 03:31:18 ResetRequired : 0
+2020/08/19 03:31:18 Device Firmware 0 Update Cancelled
+2020/08/19 03:31:18 Device Firmware 0 Set Flash Completion Status = 12
+2020/12/10 09:50:00 HP Device Firmware Update 1.1.0.0 Started
+2020/12/10 09:50:00 Device Firmware Update Mode = UPGRADE
+2020/12/10 09:50:00 Current Directory = \EFI\HP\DEVFW\
+2020/12/10 09:50:00 Total 1 HP Device Firmware Interface Protocol found
+2020/12/10 09:50:11 Device Firmware 0 Query Image Success
+2020/12/10 09:50:11 FileName : G3EA_TBT
+2020/12/10 09:50:11 Description : TBT : TitanRidge 2C
+2020/12/10 09:50:11 BlockSize : 0x800
+2020/12/10 09:50:11 TotalNumberOfBlocks : 0xD4
+2020/12/10 09:50:11 ResetRequired : 0
+2020/12/10 09:50:16 HP Device Firmware Update 1.1.0.0 Started
+2020/12/10 09:50:16 Device Firmware Update Mode = UPGRADE
+2020/12/10 09:50:17 Current Directory = \EFI\HP\DEVFW\
+2020/12/10 09:50:17 Total 1 HP Device Firmware Interface Protocol found
+2020/12/10 09:50:17 Device Firmware 0 Query Image Success
+2020/12/10 09:50:17 FileName : G3EA_TBT
+2020/12/10 09:50:17 Description : TBT : TitanRidge 2C
+2020/12/10 09:50:17 BlockSize : 0x800
+2020/12/10 09:50:17 TotalNumberOfBlocks : 0xD4
+2020/12/10 09:50:17 ResetRequired : 0
+2020/12/10 09:51:31 Device Firmware 0 Write Image Success
+2020/12/10 09:51:31 Device Firmware 0 Set Flash Completion Status = 0
