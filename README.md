@@ -1,5 +1,5 @@
 # Opencore-HP-Omen-15-2020
-## Working with macOS 11.0.1 (20B29)
+## Working with macOS 11.2.3 (20D91)
 Opencore config files for HP Omen 15 2020 10750H
 
 ~~Battery life the best I can get for this machine is around 1h and 20 min~~
