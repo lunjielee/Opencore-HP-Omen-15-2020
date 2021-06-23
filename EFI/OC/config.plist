@@ -1416,8 +1416,6 @@
 				<string>msgbuf=1048576</string>
 				<key>csr-active-config</key>
 				<data>ZwgAAA==</data>
-				<key>fmm-computer-name</key>
-				<data>TGludXMncyBNYWNCb29rIFBybw==</data>
 				<key>prev-lang:kbd</key>
 				<data>ZW46MA==</data>
 				<key>run-efi-updater</key>
@@ -1458,9 +1456,9 @@
 			<key>MaxBIOSVersion</key>
 			<false/>
 			<key>MLB</key>
-			<string>C02050500GU00008C</string>
+			<string>C02013270GU0000CB</string>
 			<key>ProcessorType</key>
-			<integer>0</integer>
+			<integer>1793</integer>
 			<key>ROM</key>
 			<data>AA2TwlIT</data>
 			<key>SpoofVendor</key>
@@ -1470,9 +1468,9 @@
 			<key>SystemProductName</key>
 			<string>MacBookPro16,4</string>
 			<key>SystemSerialNumber</key>
-			<string>C02DT0YJMD6T</string>
+			<string>C02CHKY5MD6T</string>
 			<key>SystemUUID</key>
-			<string>E0141219-2C13-4B38-A584-FC3DD3E652CF</string>
+			<string>ABE78DC3-3046-42E6-B24C-136BF525C6A2</string>
 		</dict>
 		<key>UpdateDataHub</key>
 		<true/>
