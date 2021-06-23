@@ -12,6 +12,8 @@ Battery life now has been fixed, backup your serial number if you are using your
 
 ***For other CPU models such as 10300H, 10500H, etc. Go to `DeviceProperties` and replace the old iGPU properties with the following iGPU properties instead (Not guaranteed to work, but worth a try)***
 
+### PciRoot(0x0)/Pci(0x2,0x0)
+
 | Key | Type | Value |
 | ------ | ------ | ----- |
 | AAPL,ig-platform-id | Data | 0500A63E |
