@@ -10,7 +10,7 @@ Battery life now has been fixed, backup your serial number if you are using your
 * CPU: i7-10750H (~~Emulated as 9750H~~)
 * GPU: Intel UHD Graphics + RTX2060
 
-***For other CPU models such as 10300H, 10500H, etc. Go to `DeviceProperties` and replace the old iGPU properties with the following iGPU properties instead***
+***For other CPU models such as 10300H, 10500H, etc. Go to `DeviceProperties` and replace the old iGPU properties with the following iGPU properties instead (Not guaranteed to work, but worth a try)***
 
 | Key | Type | Value |
 | ------ | ------ | ----- |
