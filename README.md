@@ -14,7 +14,7 @@ Battery life now has been fixed, backup your serial number if you are using your
 * Trackpad: Synaptics (syna32a4)
 * SSD: PM981a (Replaced with WD Black SN750)
 
-***Hey, this is very important, replace this SSD(PM981a) as it may cause various problem even with NVMxFix.kext***
+***Hey, this is very important, replace this SSD(PM981a) as it may cause various problem even with [NVMeFix.kext](https://github.com/acidanthera/NVMeFix)***
 * WiFi: Intel® Wi-Fi 6 AX201
 
 ## What's working
